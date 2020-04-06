@@ -7,7 +7,7 @@ public class Java8Feature {
 	public static void main(String[] args) {
 		List<Integer> list=Arrays.asList(1,5,9,4);
 		for (Integer integer : list) {
-			System.out.println(integer);
+			System.out.println(integer)
 		}
 		//map
 		System.out.println("map");
