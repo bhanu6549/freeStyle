@@ -13,7 +13,7 @@ public class Java8Feature {
 		System.out.println("map");
 		Stream<Integer> s=list.stream();
 		Stream<Double> m=s.map(x->Math.sqrt(x));
-		m.forEach(t->System.out.println(t))
+		m.forEach(t->System.out.println(t));
 		//reduce
 		System.out.println("reduce");
 		Stream<Integer> s1=list.stream();
